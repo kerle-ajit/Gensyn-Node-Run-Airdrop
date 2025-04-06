@@ -97,7 +97,7 @@ source .venv/bin/activate
 
 ## LOGIN : http://localhost:3000/
 
-* FOR VPS USERS ( IF OTP ISSUE ) :-
+* IF OTP ISSUE or Error :-
 ```
  ssh -L 3000:localhost:3000 root@Server_IP -p SSH_PORT
 ```
