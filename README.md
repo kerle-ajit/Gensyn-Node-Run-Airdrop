@@ -39,7 +39,7 @@ sudo usermod -aG docker $USER
 sudo apt-get install python3 python3-pip python3-venv python3-dev -y
 ```
 
-##INSTALL NODE :
+# INSTALL NODE :
 
 ```
 sudo apt-get update
