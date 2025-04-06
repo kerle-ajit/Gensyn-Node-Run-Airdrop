@@ -99,7 +99,7 @@ source .venv/bin/activate
 
 * IF OTP ISSUE or Error :-
 ```
- ssh -L 3000:localhost:3000 root@Server_IP -p SSH_PORT
+ ssh -L 3000:localhost:3000 root@Server_IP -p 22
 ```
 
 ## Dashboard: https://dashboard.gensyn.ai/
