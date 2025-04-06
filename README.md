@@ -82,38 +82,15 @@ source ~/.bashrc
 ---
 
 ```bash
-git clone https://github.com/gensyn-ai/rl-swarm/
-cd rl-swarm
+cd $HOME && [ -d rl-swarm ] && rm -rf rl-swarm; git clone https://github.com/zunxbt/rl-swarm.git && cd rl-swarm
 ```
-
+5. **Create a `screen` session**
 ```bash
-screen -S swarm
+screen -S gensyn
 ```
+6. **Run the swarm**
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-./run_rl_swarm.sh
-```
-
-## LOGIN : http://localhost:3000/
-
-### IF OTP ISSUE or Error :-
-
-* COPY AUTH : to https://ngrok.com
-* Ctrl + A + D
-```
-wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz && tar -xvzf ngrok-v3-stable-linux-amd64.tgz && sudo mv ngrok /usr/local/bin/
-ngrok http 3000
-```
-* PASTE AUTH
-```
-screen -S ngrok
-```
-```
-ngrok http 3000
-```
-* VISIT ENDPOINTS
-* Ctrl + A + D 
+python3 -m venv .venv && . .venv/bin/activate && ./run_rl_swarm.sh
 ```
 screen -r genysyn
 ```
