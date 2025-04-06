@@ -82,15 +82,16 @@ source ~/.bashrc
 ---
 
 ```bash
-cd $HOME && [ -d rl-swarm ] && rm -rf rl-swarm; git clone https://github.com/zunxbt/rl-swarm.git && cd rl-swarm
+git clone https://github.com/gensyn-ai/rl-swarm/
+cd rl-swarm
 ```
 ```bash
-screen -S gensyn
+screen -S swarm
 ```
 ```bash
-python3 -m venv .venv && . .venv/bin/activate && ./run_rl_swarm.sh
+python3 -m venv .venv
+source .venv/bin/activate
+./run_rl_swarm.sh
 ```
-screen -r genysyn
-
 
 ## Dashboard: https://dashboard.gensyn.ai/
