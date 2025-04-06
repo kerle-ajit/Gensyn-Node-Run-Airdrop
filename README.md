@@ -97,7 +97,7 @@ source .venv/bin/activate
 
 ## LOGIN : http://localhost:3000/
 
-** IF OTP ISSUE or Error :-
+### IF OTP ISSUE or Error :-
 
 * COPY AUTH : to https://ngrok.com
 Ctrl + A + D
