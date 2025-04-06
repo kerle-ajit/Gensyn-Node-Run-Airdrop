@@ -102,12 +102,17 @@ source .venv/bin/activate
 * COPY AUTH : to https://ngrok.com
 * Ctrl + A + D
 ```
-screen -S ngrok
-```
-```
 wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz && tar -xvzf ngrok-v3-stable-linux-amd64.tgz && sudo mv ngrok /usr/local/bin/
 ngrok http 3000
 ```
+* PASTE AUTH
+```
+screen -S ngrok
+```
+```
+ngrok http 3000
+```
+* VISIT ENDPOINTS
 * Ctrl + A + D 
 ```
 screen -r genysyn
