@@ -1,6 +1,6 @@
 # Gensyn-x-Earn-By-Abhi
 
-##COMMANDS 👇🏻
+# COMMANDS 👇🏻
 
 ```bash
 sudo apt-get update && sudo apt-get upgrade -y
