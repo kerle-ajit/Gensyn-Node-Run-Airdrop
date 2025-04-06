@@ -9,7 +9,7 @@ You Can Run Through
 * Own Device If Compatible 
 * VPS ( Watch Video )
 
-# COMMANDS 👇🏻
+## COMMANDS 👇🏻
 
 ```bash
 sudo apt-get update && sudo apt-get upgrade -y
@@ -95,11 +95,11 @@ source .venv/bin/activate
 ./run_rl_swarm.sh
 ```
 
-# LOGIN : http://localhost:3000/
+## LOGIN : http://localhost:3000/
 
 * FOR VPS USERS ( IF OTP ISSUE ) :-
 ```
  ssh -L 3000:localhost:3000 root@Server_IP -p SSH_PORT
 ```
 
-# Dashboard: https://dashboard.gensyn.ai/
+## Dashboard: https://dashboard.gensyn.ai/
