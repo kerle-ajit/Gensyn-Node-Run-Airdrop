@@ -100,14 +100,17 @@ source .venv/bin/activate
 ### IF OTP ISSUE or Error :-
 
 * COPY AUTH : to https://ngrok.com
-Ctrl + A + D
+* Ctrl + A + D
+```
 screen -S ngrok
+```
+```
 wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz && tar -xvzf ngrok-v3-stable-linux-amd64.tgz && sudo mv ngrok /usr/local/bin/
 ngrok http 3000
-Ctrl + A + D 
-screen -r genysyn
 ```
- ssh -L 3000:localhost:3000 root@Server_IP -p 22
+* Ctrl + A + D 
+```
+screen -r genysyn
 ```
 
 ## Dashboard: https://dashboard.gensyn.ai/
