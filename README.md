@@ -1,5 +1,14 @@
 # Gensyn-x-Earn-By-Abhi
 
+## Requirements :-
+
+* Min 16 GB RAM
+* RTX 3090/4090 GPU ( Optional )
+
+You Can Run Through 
+* Own Device If Compatible 
+* VPS ( Watch Video )
+
 # COMMANDS 👇🏻
 
 ```bash
