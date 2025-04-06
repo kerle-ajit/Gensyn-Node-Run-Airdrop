@@ -86,4 +86,6 @@ source .venv/bin/activate
 ./run_rl_swarm.sh
 ```
 
-##Dashboard: https://dashboard.gensyn.ai/
+# LOGIN : http://localhost:3000/
+
+# Dashboard: https://dashboard.gensyn.ai/
