@@ -88,6 +88,6 @@ source .venv/bin/activate
 
 # LOGIN : http://localhost:3000/
 
-* VPS ( IF OTP ISSUE ) : ssh -L 3000:localhost:3000 root@Server_IP -p SSH_PORT
+* FOR VPS USERS ( IF OTP ISSUE ) : ssh -L 3000:localhost:3000 root@Server_IP -p SSH_PORT
 
 # Dashboard: https://dashboard.gensyn.ai/
