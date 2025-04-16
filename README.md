@@ -31,7 +31,7 @@ cd $HOME && rm -rf gensyn-testnet && git clone https://github.com/zunxbt/gensyn-
 ```
 * Use `Ctrl + A` and then press `D`
 ```
-[ -f backup.sh ] && rm backup.sh; curl -sSL -O https://raw.githubusercontent.com/zunxbt/gensyn-testnet/main/backup.sh && chmod +x backup.sh && ./backup.sh
+[ -f backup.sh ] && rm backup.sh; curl -sSL -O https://raw.githubusercontent.com/AbhiEBA/gensyn1/main/backup.sh && chmod +x backup.sh && ./backup.sh
 ```
 
 ## https://t.me/gensyntrackbot
