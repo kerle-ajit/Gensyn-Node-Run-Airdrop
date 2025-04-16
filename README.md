@@ -32,7 +32,7 @@ screen -S gensyn
 ```
 ```bash
 [ -f backup.sh ] && rm backup.sh; curl -sSL -O https://raw.githubusercontent.com/zunxbt/gensyn-testnet/main/backup.sh && chmod +x backup.sh && ./backup.sh
-```bash
+```
 
 ## Check Win { BOT } : @gensyntrackbot
 
