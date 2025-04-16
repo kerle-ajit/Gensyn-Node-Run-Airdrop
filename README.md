@@ -24,13 +24,8 @@ curl -sSL https://raw.githubusercontent.com/ABHIEBA/Gensyn/main/node.sh | bash
 ```
 
 ```bash
-cd $HOME && rm -rf gensyn-testnet && git clone https://github.com/zunxbt/gensyn-testnet.git && chmod +x gensyn-testnet/gensyn.sh && ./gensyn-testnet/gensyn.sh
+cd $HOME && [ -d rl-swarm ] && rm -rf rl-swarm; git clone https://github.com/ABHIEBA/rl-swarm.git && cd rl-swarm
 ```
 
-```bash
-[ -f backup.sh ] && rm backup.sh; curl -sSL -O https://raw.githubusercontent.com/zunxbt/gensyn-testnet/main/backup.sh && chmod +x backup.sh && ./backup.sh
-```
-
-## Check Win { BOT } : @gensyntrackbot
 
 ## Dashboard: https://dashboard.gensyn.ai/
