@@ -26,6 +26,11 @@ curl -sSL https://raw.githubusercontent.com/ABHIEBA/Gensyn/main/node.sh | bash
 ```bash
 cd $HOME && [ -d rl-swarm ] && rm -rf rl-swarm; git clone https://github.com/ABHIEBA/rl-swarm.git && cd rl-swarm
 ```
-
+```bash
+screen -S swarm
+```
+```bash
+python3 -m venv .venv && . .venv/bin/activate && ./run_rl_swarm.sh
+```
 
 ## Dashboard: https://dashboard.gensyn.ai/
