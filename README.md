@@ -34,6 +34,6 @@ cd $HOME && rm -rf gensyn-testnet && git clone https://github.com/zunxbt/gensyn-
 [ -f backup.sh ] && rm backup.sh; curl -sSL -O https://raw.githubusercontent.com/AbhiEBA/gensyn1/main/backup.sh && chmod +x backup.sh && ./backup.sh
 ```
 
-## Explorer : https://t.me/gensyntrackbot
-## Bot : https://gensyn-testnet.explorer.alchemy.com
+## Bot : https://t.me/gensyntrackbot
+## Explorer : https://gensyn-testnet.explorer.alchemy.com
 ## Dashboard: https://dashboard.gensyn.ai/
