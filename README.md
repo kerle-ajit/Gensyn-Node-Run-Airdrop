@@ -30,7 +30,12 @@ cd $HOME && [ -d rl-swarm ] && rm -rf rl-swarm; git clone https://github.com/ABH
 screen -S gensyn
 ```
 ```bash
-python3 -m venv .venv && . .venv/bin/activate && ./run_rl_swarm.sh
+cd $HOME && rm -rf gensyn-testnet && git clone https://github.com/zunxbt/gensyn-testnet.git && chmod +x gensyn-testnet/gensyn.sh && ./gensyn-testnet/gensyn.sh
 ```
+* Use `Ctrl + A` and then press `D`
+```
+[ -f backup.sh ] && rm backup.sh; curl -sSL -O https://raw.githubusercontent.com/zunxbt/gensyn-testnet/main/backup.sh && chmod +x backup.sh && ./backup.sh
+```
+
 
 ## Dashboard: https://dashboard.gensyn.ai/
