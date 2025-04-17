@@ -10,7 +10,7 @@ You Can Run Through
 * VPS ( Watch Video )
 
 ## COMMANDS 👇🏻
-* USE THIS COMMAND !ST TO AVOID KILLED ISUUE :
+* USE THIS COMMAND 1ST TO AVOID KILLED ISUUE :
 ```bash
 sudo swapoff -a
 sudo rm -f /swapfile
