@@ -10,7 +10,21 @@ You Can Run Through
 * VPS ( Watch Video )
 
 ## COMMANDS 👇🏻
+* USE THIS COMMAND !ST TO AVOID KILLED ISUUE :
+```bash
+sudo swapoff -a
+sudo rm -f /swapfile
 
+sudo fallocate -l 8G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+
+swapon --show
+free -h
+
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+```
 ```bash
 apt update && apt install -y sudo
 ```
