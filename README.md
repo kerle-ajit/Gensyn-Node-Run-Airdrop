@@ -1,4 +1,4 @@
-# Gensyn-x-Earn-By-Abhi
+# Gensyn-Node-run
 
 ## Requirements :-
 
